@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+<html>
+    <head>
+        <title>Mi primera página WEB: Frames</title>
+    </head>
+     <frameset rows="100,*">
+         <frame id="frmSuperior" name="frmSuperior" src="encabezado.html" />
+         <frameset rows="*" cols="184,*">
+           <frame id="frmIzquierda" name="frmIzquierda" src="menu.html" />
+             <frame id="frmCuerpo"    name="frmCuerpo"    src="central.html" />
+         </frameset>
+        <noframes>
+        <body>Su navegador no soporta frames</body>
+       </noframes>
+    </frameset>
+</html>
+</body>
+</html>
